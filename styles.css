@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to right, #4e73df, #36b9cc); /* Gradiente azul y aqua */
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Texto blanco para el encabezado */
+}
+
+/* Form Styles */
+form {
+    max-width: 420px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Sombra suave para el formulario */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 16px;
+    color: #555;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border 0.3s ease;
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border-color: #36b9cc; /* Cambio de color al enfocar los campos */
+    outline: none;
+    box-shadow: 0 0 8px rgba(54, 185, 204, 0.3);
+}
+
+button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #36b9cc; /* Color azul aqua */
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #28a745; /* Color verde más intenso al pasar el mouse */
+}
+
+p {
+    text-align: center;
+    color: #e74c3c; /* Color rojo para los mensajes de error */
+    font-size: 14px;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 14px;
+    text-align: left;
+}
+
+th {
+    background-color: #36b9cc; /* Color de fondo de las cabeceras de la tabla */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Fondo claro en filas pares */
+}
+
+tr:hover {
+    background-color: #f1f1f1; /* Fondo gris claro al pasar el ratón por las filas */
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #36b9cc;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #28a745; /* Cambio de color al pasar el ratón */
+}
